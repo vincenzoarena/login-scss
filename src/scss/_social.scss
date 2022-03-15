@@ -1,0 +1,54 @@
+.social{
+    border: 1px $--border-color solid;
+    display: flex;
+    position: relative;
+}
+ul {
+    list-style: none;
+    li{
+        a{
+            color: $--main-bg-login-btn-color;
+        }
+    }
+}
+.fab {
+    border-right: $--border-color 1px solid;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.fb, .g, .twt {
+    color: $--main-bg-login-btn-color;
+    padding: 0.5vw;
+    margin: 3vw;
+    width: 20vw;
+    text-align: left;
+    font-size: 2em;
+    align-items: center;
+    position: relative;
+}
+
+.fab {
+    border-right: $--border-color 1px solid;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.fa-facebook-f {
+    padding-right: 0.8rem;
+}
+
+.fb {
+    background-color: $--fb-color;
+}
+
+.g {
+    background-color: $--g-color;
+}
+
+.twt {
+    background-color: $--twt-color;
+}
+a:any-link {
+    text-decoration: none;
+}

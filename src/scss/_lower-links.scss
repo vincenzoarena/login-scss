@@ -1,0 +1,37 @@
+.line2 {
+    border-left: $--border-color 2px solid;
+    z-index: 1;
+}
+
+.new {
+    color: $--low-links-text;
+    background-color: $--low-links-bg;
+    border-top: none;
+    div{
+        display: inline-flex;
+        justify-content: space-evenly;
+        div{
+            a{
+                font-size: 2rem;
+                padding: 1rem;
+            }
+        }
+        div:first-child{
+            border-right: $--border-color 1px solid;
+        }
+        div:last-child{
+            border-left: $--border-color 1px solid;
+        }
+    }        
+}
+.links {
+    width: 15vw;
+    justify-content: space-around;
+    position: absolute;
+    padding: 1vw;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    cursor: pointer;
+}

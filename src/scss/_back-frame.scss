@@ -1,0 +1,22 @@
+section {
+    background-color: $--main-bg-login-btn-color;
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 2.5rem;
+    article {
+        color: $--main-bg-login-btn-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $--main-bg-login-btn-color;
+        border: 2px $--border-color solid;
+        width: 75rem;
+        height: 40rem;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }    
+}

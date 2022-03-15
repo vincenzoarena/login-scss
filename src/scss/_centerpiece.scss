@@ -1,0 +1,51 @@
+#circle {
+    margin: 5vw auto;
+    position: relative;
+    color: $--border-color;
+    width: 6vw;
+    height: 12vh;
+    background-color: $--main-bg-login-btn-color;
+    border: $--border-color 2px solid;
+    border-radius: 50%;
+}
+
+#circle>span {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    flex: 3vw;
+}
+
+.line1, .line3 {
+    position: relative;
+    z-index: 0;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.line1 {
+    position: relative;
+    top: -10vh;
+    right: -3.2vw;
+    border-left: $--border-color 2px solid;
+}
+
+.line2 {
+    position: relative;
+    top: 10vh;
+    right: -3vw;
+    border-right: $--border-color 2px solid;
+}
+.links {
+    width: 15vw;
+    justify-content: space-around;
+    position: absolute;
+    padding: 1vw;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    cursor: pointer;
+}

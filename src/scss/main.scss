@@ -1,0 +1,27 @@
+/* @import "../fontawesome-free-6.0.0-web/scss/fontawesome.scss"; */
+@import "./var";
+@import "./back-frame";
+@import "./social";
+@import "./centerpiece";
+@import "./insert-data";
+@import "./lower-links";
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+  
+body{
+    background-color: #808080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}

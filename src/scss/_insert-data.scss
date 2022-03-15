@@ -1,0 +1,70 @@
+.login {
+    color: $--main-bg-login-btn-color;
+    background-color: $--form-btn;
+    border: none;
+    border-radius: 0.2rem;
+    /* padding: 1rem; */
+    font-size: 2rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+form {
+    color: $--form-text;
+    border: $--border-color 1px solid;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*  .buttonslow{
+    [type="checkbox"] {
+        color: $--check-box;
+        width: 2rem;
+        margin: 1rem;
+        font-size: 2vh;
+        display: flex;
+        flex-direction: row;
+    }
+}  */
+
+input[type="email"], input[type="password"] {
+    border: none;
+    font-size: 2rem;
+    padding: 0.5vw;
+    width: 25vw;
+    position: relative;
+}
+
+fieldset{
+    border: none;
+    width: 1rem;
+}
+.right {
+    color: $--form-text;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25vw;
+    height: 60vh;
+}
+.underline {
+    border-bottom: 1px solid $--form-text;
+}
+
+.buttonslow {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0.115rem;
+}
+
+p{
+    width: 13vw;
+}
+.box{
+    color: $--check-box;
+    width: 2rem;
+}
