@@ -27,11 +27,12 @@ section article {
   display: flex;
   position: relative;
 }
-
-ul {
+.social ul {
   list-style: none;
+  padding-inline-start: none;
+  margin: 0;
 }
-ul li a {
+.social ul li a {
   color: #ffffff;
 }
 
@@ -43,13 +44,16 @@ ul li a {
 
 .fb, .g, .twt {
   color: #ffffff;
-  padding: 0.5vw;
-  margin: 3vw;
+  /* padding: 0.5vw; */
   width: 20vw;
   text-align: left;
   font-size: 2em;
   align-items: center;
   position: relative;
+}
+
+.g {
+  margin: 3vw 0 3vw 0;
 }
 
 .fab {
@@ -161,9 +165,9 @@ form {
 }  */
 input[type=email], input[type=password] {
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.5vw;
-  width: 25vw;
+  width: 15vw;
   position: relative;
 }
 
