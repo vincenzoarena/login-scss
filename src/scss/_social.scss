@@ -2,12 +2,14 @@
     border: 1px $--border-color solid;
     display: flex;
     position: relative;
-}
-ul {
-    list-style: none;
-    li{
-        a{
-            color: $--main-bg-login-btn-color;
+    ul {
+        list-style: none;
+        padding-inline-start: none;
+        margin: 0;
+        li{
+            a{
+                color: $--main-bg-login-btn-color;
+            }
         }
     }
 }
@@ -19,15 +21,16 @@ ul {
 
 .fb, .g, .twt {
     color: $--main-bg-login-btn-color;
-    padding: 0.5vw;
-    margin: 3vw;
+    /* padding: 0.5vw; */
     width: 20vw;
     text-align: left;
     font-size: 2em;
     align-items: center;
     position: relative;
 }
-
+.g{
+    margin: 3vw 0 3vw 0;
+}
 .fab {
     border-right: $--border-color 1px solid;
     padding: 0.5rem;
