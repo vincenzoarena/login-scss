@@ -1,0 +1,337 @@
+/* @import "../fontawesome-free-6.0.0-web/scss/fontawesome.scss"; */
+section {
+  background-color: #ffffff;
+  width: 80rem;
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 2.5rem;
+}
+
+section article {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  border: 2px #a8a8a8 solid;
+  width: 75rem;
+  height: 40rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.social {
+  border: 1px #a8a8a8 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.social ul {
+  list-style: none;
+  -webkit-padding-start: none;
+          padding-inline-start: none;
+  margin: 0;
+}
+
+.social ul li a {
+  color: #ffffff;
+}
+
+.fab {
+  border-right: #a8a8a8 1px solid;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.fb, .g, .twt {
+  color: #ffffff;
+  /* padding: 0.5vw; */
+  width: 20vw;
+  text-align: left;
+  font-size: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.g {
+  margin: 3vw 0 3vw 0;
+}
+
+.fab {
+  border-right: #a8a8a8 1px solid;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.fa-facebook-f {
+  padding-right: 0.8rem;
+}
+
+.fb {
+  background-color: #507bbf;
+}
+
+.g {
+  background-color: #db4a30;
+}
+
+.twt {
+  background-color: #65cdf2;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+a:-moz-any-link {
+  text-decoration: none;
+}
+
+a:any-link {
+  text-decoration: none;
+}
+
+#circle {
+  margin: 5vw auto;
+  position: relative;
+  color: #a8a8a8;
+  width: 6vw;
+  height: 12vh;
+  background-color: #ffffff;
+  border: #a8a8a8 2px solid;
+  border-radius: 50%;
+}
+
+#circle > span {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 3vw;
+      -ms-flex: 3vw;
+          flex: 3vw;
+}
+
+.line1, .line3 {
+  position: relative;
+  z-index: 0;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.line1 {
+  position: relative;
+  top: -10vh;
+  right: -3.2vw;
+  border-left: #a8a8a8 2px solid;
+}
+
+.line2 {
+  position: relative;
+  top: 10vh;
+  right: -3vw;
+  border-right: #a8a8a8 2px solid;
+}
+
+.links {
+  width: 15vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  padding: 1vw;
+  /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+  cursor: pointer;
+}
+
+.login {
+  color: #ffffff;
+  background-color: #65b1ff;
+  border: none;
+  border-radius: 0.2rem;
+  /* padding: 1rem; */
+  font-size: 2rem;
+  width: 10rem;
+  height: 5rem;
+}
+
+form {
+  color: #444155;
+  border: #a8a8a8 1px solid;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/*  .buttonslow{
+    [type="checkbox"] {
+        color: $--check-box;
+        width: 2rem;
+        margin: 1rem;
+        font-size: 2vh;
+        display: flex;
+        flex-direction: row;
+    }
+}  */
+input[type="email"], input[type="password"] {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5vw;
+  width: 15vw;
+  position: relative;
+}
+
+fieldset {
+  border: none;
+  width: 1rem;
+}
+
+.right {
+  color: #444155;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 25vw;
+  height: 60vh;
+}
+
+.underline {
+  border-bottom: 1px solid #444155;
+}
+
+.buttonslow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* align-items: flex-end; */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0.115rem;
+}
+
+p {
+  width: 13vw;
+}
+
+.box {
+  color: #7c7b83;
+  width: 2rem;
+}
+
+.line2 {
+  border-left: #a8a8a8 2px solid;
+  z-index: 1;
+}
+
+.new {
+  color: #378ee2;
+  background-color: #f2f9ff;
+  border-top: none;
+}
+
+.new div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.new div div a {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.new div div:first-child {
+  border-right: #a8a8a8 1px solid;
+}
+
+.new div div:last-child {
+  border-left: #a8a8a8 1px solid;
+}
+
+.links {
+  width: 15vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  padding: 1vw;
+  /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  background-color: #808080;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+/*# sourceMappingURL=main.css.map */
